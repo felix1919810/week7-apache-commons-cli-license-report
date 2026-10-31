@@ -1,0 +1,24 @@
+INFO: Apache Creadur RAT 0.18 (Apache Software Foundation)
+INFO: RAT summary:
+INFO: 
+  Approved:  120
+INFO: 
+  Archives:  0
+INFO: 
+  Binaries:  8
+INFO: 
+  Document types:  3
+INFO: 
+  Ignored:  0
+INFO: 
+  License categories:  1
+INFO: 
+  License names:  1
+INFO: 
+  Notices:  3
+INFO: 
+  Standards:  120
+INFO: 
+  Unapproved:  0
+INFO: 
+  Unknown:  0

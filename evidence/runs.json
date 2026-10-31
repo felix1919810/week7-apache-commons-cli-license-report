@@ -1,0 +1,56 @@
+[
+  {
+    "label": "java-version",
+    "command": [
+      "java",
+      "-version"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.061,
+    "timestamp": "2026-10-31T22:10:30.963472+08:00"
+  },
+  {
+    "label": "rat-help",
+    "command": [
+      "java",
+      "-jar",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\tools\\apache-rat-0.18\\apache-rat-0.18.jar",
+      "--help"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 0.222,
+    "timestamp": "2026-10-31T22:10:31.185624+08:00"
+  },
+  {
+    "label": "baseline-txt",
+    "command": [
+      "java",
+      "-jar",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\tools\\apache-rat-0.18\\apache-rat-0.18.jar",
+      "--output-style",
+      "plain-rat",
+      "--output-file",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\evidence\\rat-baseline.txt",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\source\\commons-cli-1.11.0-src"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.475,
+    "timestamp": "2026-10-31T22:10:32.694530+08:00"
+  },
+  {
+    "label": "baseline-xml",
+    "command": [
+      "java",
+      "-jar",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\tools\\apache-rat-0.18\\apache-rat-0.18.jar",
+      "--output-style",
+      "xml",
+      "--output-file",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\evidence\\rat-baseline.xml",
+      "C:\\Users\\felix\\Documents\\ChatGPT\\数据结构作业 2\\license-test-week7\\source\\commons-cli-1.11.0-src"
+    ],
+    "exit_code": 0,
+    "duration_seconds": 1.406,
+    "timestamp": "2026-10-31T22:10:34.100407+08:00"
+  }
+]

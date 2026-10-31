@@ -1,0 +1,8 @@
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR: Unexpected count for LICENSE_CATEGORIES, limit is [1,2147483647].  Count: 0
+ERROR: Unexpected count for LICENSE_NAMES, limit is [1,2147483647].  Count: 0
+ERROR: Unexpected count for STANDARDS, limit is [1,2147483647].  Count: 0
+Exception in thread "main" org.apache.rat.document.RatDocumentAnalysisException: Issues with LICENSE_CATEGORIES, LICENSE_NAMES, STANDARDS
+	at org.apache.rat.Report.main(Report.java:60)

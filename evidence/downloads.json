@@ -1,0 +1,20 @@
+[
+  {
+    "name": "OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+    "url": "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.20.1%2B1/OpenJDK17U-jre_x64_windows_hotspot_17.0.20.1_1.zip",
+    "sha256": "bc21a93923103cdaac93ee337b0ae4365e739fde36df823dd456bc67c8a9d352",
+    "verified": true
+  },
+  {
+    "name": "apache-rat-0.18-bin.zip",
+    "url": "https://archive.apache.org/dist/creadur/apache-rat-0.18/apache-rat-0.18-bin.zip",
+    "sha512": "786be5c1de3990f77f7e15d09ef7cd065514a430246dcfba0d0c658f946a08353f380e54f71351b2b420980d6e7c52f55974b3dac08dfe7ed9764301bdb61ced",
+    "verified": true
+  },
+  {
+    "name": "commons-cli-1.11.0-src.zip",
+    "url": "https://archive.apache.org/dist/commons/cli/source/commons-cli-1.11.0-src.zip",
+    "sha512": "7918509f2fc6fc471d23839b9bf1dac1d8ab471327e1c6c956057fca748c4b3cfb96ff0d9bd8aa951d5be4d503eedf97cfe10db1a69031c0371b2285c05865a4",
+    "verified": true
+  }
+]

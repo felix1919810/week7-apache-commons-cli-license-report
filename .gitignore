@@ -1,0 +1,6 @@
+tools/
+source/
+controls/
+replay/
+__pycache__/
+~$*.docx

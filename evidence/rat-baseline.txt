@@ -1,0 +1,572 @@
+*****************************************************
+Summary
+*****************************************************
+Generated at: 2026-10-31T22:10:31+08:00
+    by Apache Creadur RAT 0.18 (Apache Software Foundation)
+
+-----------------------------------------------------
+Counters
+-----------------------------------------------------
+    (Entries starting with '!' exceed the minimum or maximum values)
+  Approved:           120    A count of approved licenses.
+  Archives:           0    A count of archive files.
+  Binaries:           8    A count of binary files.
+  Document types:     3    A count of distinct document types.
+  Ignored:            0    A count of ignored files.
+  License categories: 1    A count of distinct license categories.
+  License names:      1    A count of distinct license names.
+  Notices:            3    A count of notice files.
+  Standards:          120    A count of standard files.
+  Unapproved:         0    A count of unapproved licenses.
+  Unknown:            0    A count of unknown file types.
+
+
+-----------------------------------------------------
+Licenses detected
+-----------------------------------------------------
+
+Apache License 2.0: 120 
+
+-----------------------------------------------------
+License Categories detected
+-----------------------------------------------------
+
+AL   : 120 
+
+-----------------------------------------------------
+Document Types detected
+-----------------------------------------------------
+
+BINARY: 8 
+NOTICE: 3 
+STANDARD: 120 
+
+*****************************************************
+Detail
+*****************************************************
+
+  Documents with unapproved licenses will start with a '!'
+  The first character on the next line identifies the document type.
+   
+   char         type
+    A       Archive file
+    B       Binary file
+    I       Ignored file
+    N       Notice file
+    S       Standard file
+    U       Unknown file.
+  
+  /CONTRIBUTING.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /LICENSE.txt
+  N         text/plain    ISO-8859-1
+
+  /NOTICE.txt
+  N         text/plain    ISO-8859-1
+
+  /README.md
+  S         text/x-web-markdown    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /RELEASE-NOTES.txt
+  N         text/plain    ISO-8859-1
+
+  /pom.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/assembly/bin.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/assembly/src.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/changes/changes.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/changes/release-notes.vm
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/conf/checkstyle-suppressions.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/conf/checkstyle.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/conf/spotbugs-exclude-filter.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/AlreadySelectedException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/AmbiguousOptionException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/BasicParser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/Char.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/CommandLine.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/CommandLineParser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/Converter.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/DefaultParser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/DeprecatedAttributes.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/GnuParser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/HelpFormatter.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/MissingArgumentException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/MissingOptionException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/Option.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/OptionBuilder.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/OptionGroup.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/OptionValidator.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/Options.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/ParseException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/Parser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/PatternOptionBuilder.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/PosixParser.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/TypeHandler.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/UnrecognizedOptionException.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/Util.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/doc-files/leaf.svg
+  S         image/svg+xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/doc-files/logo.png
+  B         image/png    
+
+  /src/main/java/org/apache/commons/cli/help/AbstractHelpFormatter.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/FilterHelpAppendable.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/HelpAppendable.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/HelpFormatter.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/OptionFormatter.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/TableDefinition.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/TextHelpAppendable.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/TextStyle.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/Util.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/help/package-info.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/java/org/apache/commons/cli/package-info.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/main/javadoc/overview.html
+  S         text/html    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/media/commons-logo-component-100.xcf
+  B         image/x-xcf    
+
+  /src/media/commons-logo-component.xcf
+  B         image/x-xcf    
+
+  /src/media/logo.png
+  B         image/png    
+
+  /src/site/resources/.htaccess
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/download_cli.cgi
+  B         application/x-sh    
+
+  /src/site/resources/images/1x1.gif
+  B         image/gif    
+
+  /src/site/resources/images/logo.png
+  B         image/png    
+
+  /src/site/resources/images/options.png
+  B         image/png    
+
+  /src/site/resources/images/svg/commandlines.svg
+  S         image/svg+xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/images/svg/diagrams-cli2.js
+  S         text/javascript    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/images/svg/diagrams.css
+  S         text/css    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/images/svg/diagrams.js
+  S         text/javascript    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/images/svg/options.svg
+  S         image/svg+xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/images/svg/util.svg
+  S         image/svg+xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/resources/profile.jacoco
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/site.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/download_cli.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/index.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/issue-tracking.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/mail-lists.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/release_1_0.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/release_1_2.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/release_1_3.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/release_1_3_1.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/release_1_4.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/security.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/site/xdoc/upgrading-1.0-to-1.1.xml
+  S         application/xml    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/AbstractParserTestCase.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/AlreadySelectedExceptionTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/ApplicationTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/ArgumentIsOptionTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/BasicParserTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/CommandLineTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/ConverterTests.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/DefaultParserTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/DeprecatedAttributesTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/DisablePartialMatchingTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/GnuParserTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/HelpFormatterTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/MissingOptionExceptionTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/OptionBuilderTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/OptionCountTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/OptionGroupTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/OptionTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/OptionValidatorTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/OptionsTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/ParseExceptionTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/PatternOptionBuilderTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/PosixParserTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/SolrCliTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/SolrCreateToolTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/TypeHandlerTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/UnrecognizedOptionExceptionTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/UtilTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/ValueTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/ValuesTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI133Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI162Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI18Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI252Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI265Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI266Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI312Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI325Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugCLI71Test.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/bug/BugsTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/example/AptHelpAppendable.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/example/AptHelpAppendableTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/example/WeirdOptionFormat.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendable.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendableTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/help/HelpFormatterTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/help/OptionFormatterTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/help/TextHelpAppendableTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/help/TextStyleTests.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/java/org/apache/commons/cli/help/UtilTest.java
+  S         text/x-java-source    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+  /src/test/resources/org/apache/commons/cli/existing-readable.file
+  S         text/plain    ISO-8859-1
+    AL       AL2.0         Apache License 2.0
+
+

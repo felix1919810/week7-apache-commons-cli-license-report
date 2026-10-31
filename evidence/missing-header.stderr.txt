@@ -1,0 +1,6 @@
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+ERROR: Unexpected count for UNAPPROVED, limit is [0,0].  Count: 1
+Exception in thread "main" org.apache.rat.document.RatDocumentAnalysisException: Issues with UNAPPROVED
+	at org.apache.rat.Report.main(Report.java:60)

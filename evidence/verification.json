@@ -1,0 +1,90 @@
+{
+  "file_count": 131,
+  "java_count": 87,
+  "standard_count": 120,
+  "binary_count": 8,
+  "notice_count": 3,
+  "source_unchanged": true,
+  "all_source_paths_accounted_for": true,
+  "controls": [
+    {
+      "case": "positive",
+      "exit_code": 0,
+      "duration_seconds": 0.821,
+      "resources": [
+        {
+          "file": "/AlreadySelectedException.java",
+          "type": "STANDARD",
+          "licenses": [
+            {
+              "approval": "true",
+              "family": "AL   ",
+              "id": "AL2.0",
+              "name": "Apache License 2.0"
+            }
+          ]
+        }
+      ],
+      "timestamp": "2026-10-31T22:12:11.703283+08:00",
+      "input_sha256": "122a934716ea1657644d99b600a0eed78e70bc01b84cb0cfb83508984359719e"
+    },
+    {
+      "case": "missing-header",
+      "exit_code": 1,
+      "duration_seconds": 0.827,
+      "resources": [
+        {
+          "file": "/AlreadySelectedException.java",
+          "type": "STANDARD",
+          "licenses": [
+            {
+              "approval": "false",
+              "family": "?????",
+              "id": "?????",
+              "name": "Unknown license"
+            }
+          ]
+        }
+      ],
+      "timestamp": "2026-10-31T22:12:12.531132+08:00",
+      "input_sha256": "fd2e11359e85f32f53b60f62cf79627f9cfdd26a7f4ed08293ca95ebb6b988a7"
+    },
+    {
+      "case": "restored-header",
+      "exit_code": 0,
+      "duration_seconds": 0.827,
+      "resources": [
+        {
+          "file": "/AlreadySelectedException.java",
+          "type": "STANDARD",
+          "licenses": [
+            {
+              "approval": "true",
+              "family": "AL   ",
+              "id": "AL2.0",
+              "name": "Apache License 2.0"
+            }
+          ]
+        }
+      ],
+      "timestamp": "2026-10-31T22:12:13.359282+08:00",
+      "input_sha256": "122a934716ea1657644d99b600a0eed78e70bc01b84cb0cfb83508984359719e"
+    },
+    {
+      "case": "cgi-text-review",
+      "exit_code": 1,
+      "duration_seconds": 0.808,
+      "resources": [
+        {
+          "file": "/download_cli.txt",
+          "type": "BINARY",
+          "licenses": []
+        }
+      ],
+      "timestamp": "2026-10-31T22:12:14.167832+08:00",
+      "input_sha256": "7a222f33a1da2dcbb63825425480af1db9a9132f4755491c1ecedbdfe9704b9f"
+    }
+  ],
+  "all_java_files_approved": true,
+  "cgi_exit_reason": "No standard files or recognized license categories/names; not an unapproved-license detection. The unchanged-byte .txt copy remains BINARY."
+}

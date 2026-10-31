@@ -1,0 +1,501 @@
+INFO: Apache Creadur RAT 0.18 (Apache Software Foundation)
+usage: java -jar apache-rat/target/apache-rat-0.18.jar [options] [DIR|ARCHIVE]
+
+====== Available Options ======
+ -?,--help                                            Print help for the RAT command line interface and exit.
+ -a                                                   [Deprecated for removal since 0.17: Use --edit-license instead.]
+ -A,--addLicense                                      [Deprecated for removal since 0.17: Use --edit-license instead.]
+                                                      Add the Apache-2.0 license header to any file with an unknown
+                                                      license that is not in the exclusion list.
+ -c,--copyright <arg>                                 [Deprecated for removal since 0.17: Use --edit-copyright instead.]
+                                                      The copyright message to use in the license headers.
+    --config <File>                                   File names for system configuration. Multiple values may be
+                                                      specified. Note that '--' or a following option is required when
+                                                      using this parameter.
+    --configuration-no-defaults                       Ignore default configuration.
+    --counter-max <CounterPattern>                    The acceptable maximum number for the specified counter. A value
+                                                      of '-1' specifies an unlimited number. Multiple values may be
+                                                      specified. Note that '--' or a following option is required when
+                                                      using this parameter.
+    --counter-min <CounterPattern>                    The minimum number for the specified counter. Multiple values may
+                                                      be specified. Note that '--' or a following option is required
+                                                      when using this parameter.
+ -d,--dir <DirOrArchive>                              [Deprecated for removal since 0.17: Use the standard '--' to
+                                                      signal the end of arguments.] Used to indicate end of list when
+                                                      using options that take multiple arguments.
+    --dry-run                                         If set do not update the files but generate the reports.
+ -e,--exclude <Expression>                            [Deprecated for removal since 0.17: Use --input-exclude instead.]
+                                                      Excludes files matching <Expression>. Multiple values may be
+                                                      specified. Note that '--' or a following option is required when
+                                                      using this parameter.
+ -E,--exclude-file <File>                             [Deprecated for removal since 0.17: Use --input-exclude-file
+                                                      instead.] Reads <Expression> entries from a file. Entries will be
+                                                      excluded from processing.
+    --edit-copyright <arg>                            The copyright message to use in the license headers. Usually in
+                                                      the form of "Copyright 2008 Foo".  Only valid with --edit-license
+    --edit-license                                    Add the Apache-2.0 license header to any file with an unknown
+                                                      license that is not in the exclusion list. By default new files
+                                                      will be created with the license header, to force the modification
+                                                      of existing files use the --edit-overwrite option.
+    --edit-overwrite                                  Forces any changes in files to be written directly to the source
+                                                      files so that new files are not created. Only valid with
+                                                      --edit-license.
+ -f,--force                                           [Deprecated for removal since 0.17: Use --edit-overwrite instead.]
+                                                      Forces any changes in files to be written directly to the source
+                                                      files so that new files are not created.
+    --help-licenses                                   Print information about registered licenses.
+    --include <Expression>                            [Deprecated for removal since 0.17: Use --input-include instead.]
+                                                      Includes files matching <Expression>. Will override excluded
+                                                      files. Multiple values may be specified. Note that '--' or a
+                                                      following option is required when using this parameter.
+    --includes-file <File>                            [Deprecated for removal since 0.17: Use --input-include-file
+                                                      instead.] Reads <Expression> entries from a file. Entries will be
+                                                      excluded from processing.
+    --input-exclude <Expression>                      Excludes files matching <Expression>. Multiple values may be
+                                                      specified. Note that '--' or a following option is required when
+                                                      using this parameter.
+    --input-exclude-file <File>                       Reads <Expression> entries from a file. Entries will be excluded
+                                                      from processing.
+    --input-exclude-parsed-scm <StandardCollection>   Parse SCM based exclusion files to exclude specified files and
+                                                      directories. This action can apply to any standard collection that
+                                                      implements a file processor. Multiple values may be specified.
+                                                      Note that '--' or a following option is required when using this
+                                                      parameter.
+    --input-exclude-size <Integer>                    Excludes files with sizes less than the number of bytes specified.
+    --input-exclude-std <StandardCollection>          Excludes files defined in standard collections based on commonly
+                                                      occurring groups. Excludes any path matcher actions but DOES NOT
+                                                      exclude any file processor actions. Multiple values may be
+                                                      specified. Note that '--' or a following option is required when
+                                                      using this parameter.
+    --input-include <Expression>                      Includes files matching <Expression>. Will override excluded
+                                                      files. Multiple values may be specified. Note that '--' or a
+                                                      following option is required when using this parameter.
+    --input-include-file <File>                       Reads <Expression> entries from a file. Entries will override
+                                                      excluded files.
+    --input-include-std <StandardCollection>          Includes files defined in standard collections based on commonly
+                                                      occurring groups. Includes any path matcher actions but DOES NOT
+                                                      include any file processor actions. Multiple values may be
+                                                      specified. Note that '--' or a following option is required when
+                                                      using this parameter.
+    --input-source <File>                             A file containing file names to process. File names must use linux
+                                                      directory separator ('/') or none at all. File names that do not
+                                                      start with '/' are relative to the directory where the argument is
+                                                      located. Multiple values may be specified. Note that '--' or a
+                                                      following option is required when using this parameter.
+    --license-families-approved <FamilyID>            A comma separated list of approved license family IDs. These
+                                                      license families will be added to the list of approved license
+                                                      families.
+    --license-families-approved-file <File>           Name of file containing comma separated lists of approved family
+                                                      IDs.
+    --license-families-denied <FamilyID>              A comma separated list of denied License family IDs. These license
+                                                      families will be removed from the list of approved licenses. Once
+                                                      license families are removed they can not be added back.
+    --license-families-denied-file <File>             Name of file containing comma separated lists of denied license
+                                                      IDs. These license families will be removed from the list of
+                                                      approved licenses. Once license families are removed they can not
+                                                      be added back.
+    --licenses <File>                                 [Deprecated for removal since 0.17: Use --config instead.] File
+                                                      names for system configuration. Multiple values may be specified.
+                                                      Note that '--' or a following option is required when using this
+                                                      parameter.
+    --licenses-approved <LicenseID>                   A comma separated list of approved License IDs. These licenses
+                                                      will be added to the list of approved licenses.
+    --licenses-approved-file <File>                   Name of file containing comma separated lists of approved License
+                                                      IDs.
+    --licenses-denied <LicenseID>                     A comma separated list of denied License IDs. These licenses will
+                                                      be removed from the list of approved licenses. Once licenses are
+                                                      removed they can not be added back.
+    --licenses-denied-file <File>                     Name of file containing comma separated lists of the denied
+                                                      license IDs. These licenses will be removed from the list of
+                                                      approved licenses. Once licenses are removed they can not be added
+                                                      back.
+    --list-families <LicenseFilter>                   [Deprecated for removal since 0.17: Use --output-families
+                                                      instead.] List the defined license families. (Default value =
+                                                      NONE)
+    --list-licenses <LicenseFilter>                   [Deprecated for removal since 0.17: Use --output-licenses
+                                                      instead.] List the defined licenses. (Default value = NONE)
+    --log-level <LogLevel>                            Sets the log level. (Default value = WARN)
+    --no-default-licenses                             [Deprecated for removal since 0.17: Use
+                                                      --configuration-no-defaults instead.] Ignore default
+                                                      configuration.
+ -o,--out <File>                                      [Deprecated for removal since 0.17: Use --output-file instead.]
+                                                      Define the output file where to write a report to. (Default value
+                                                      = System.out)
+    --output-archive <ProcessingType>                 Specifies the level of detail in ARCHIVE file reporting. (Default
+                                                      value = NOTIFICATION)
+    --output-families <LicenseFilter>                 List the defined license families. (Default value = NONE)
+    --output-file <File>                              Define the output file where to write a report to. (Default value
+                                                      = System.out)
+    --output-licenses <LicenseFilter>                 List the defined licenses. (Default value = NONE)
+    --output-standard <ProcessingType>                Specifies the level of detail in STANDARD file reporting. (Default
+                                                      value = ABSENCE)
+    --output-style <StyleSheet>                       XSLT stylesheet to use when creating the report. Either an
+                                                      external xsl file may be specified or one of the internal named
+                                                      sheets.
+ -s,--stylesheet <StyleSheet>                         [Deprecated for removal since 0.17: Use --output-style instead.]
+                                                      XSLT stylesheet to use when creating the report.
+    --scan-hidden-directories                         [Deprecated for removal since 0.17: Use --input-include-std with
+                                                      'HIDDEN_DIR' argument instead.] Scans hidden directories.
+ -x,--xml                                             [Deprecated for removal since 0.17: Use --output-style with the
+                                                      'xml' argument instead.] forces XML output rather than the textual
+                                                      report.
+
+====== Argument Types ======
+
+<File>
+     A file name.
+
+<Integer>
+     An integer value.
+
+<DirOrArchive>
+     A directory or archive file to scan.
+
+<Expression>
+     A file matching pattern usually of the form used in Ant build files and '.gitignore' files (see
+         https://ant.apache.org/manual/dirtasks.html#patterns for examples). Regular expression patterns may be
+         specified by surrounding the pattern with '%regex[' and ']'. For example '%regex[[A-Z].*]' would match files
+         and directories that start with uppercase latin letters.
+
+<LicenseFilter>
+     A defined filter for the licenses to include. Valid values: ALL, APPROVED, NONE.
+
+<LogLevel>
+     The log level to use. Valid values DEBUG, INFO, WARN, ERROR, OFF.
+
+<ProcessingType>
+     Specifies how to process file types. Valid values are:
+         NOTIFICATION: List file as present
+
+         PRESENCE: List any licenses found
+
+         ABSENCE: List licenses found and any unknown licences
+
+<StyleSheet>
+     Either an external xsl file or one of the internal named sheets. Internal sheets are:
+
+         plain-rat: The default style.
+
+
+         missing-headers: Produces a report of files that are missing headers.
+
+
+         unapproved-licenses: Produces a report of the files with unapproved licenses.
+
+
+         xml: Produces output in pretty-printed XML.
+
+<LicenseID>
+     The ID for a license.
+
+<FamilyID>
+     The ID for a license family.
+
+<StandardCollection>
+     Defines standard expression patterns (see above). Valid values are:
+
+         ALL: All of the Standard Excludes combined.
+
+
+         ARCH: The files and directories created by an ARCH source code control based tool.
+
+
+         BAZAAR: The files and directories created by a Bazaar source code control based tool.
+
+
+         BITKEEPER: The files and directories created by a Bitkeeper source code control based tool.
+
+
+         CVS: The files and directories created by a CVS source code control based tool.
+
+
+         DARCS: The files and directories created by a DARCS source code control based tool.
+
+
+         ECLIPSE: The files and directories created by an Eclipse IDE based tool.
+
+
+         GIT: The files and directories created by GIT source code control to support GIT, also processes files listed
+         in '.gitignore' and (unless RAT_NO_GIT_GLOBAL_IGNORE is specified) the global gitignore.
+
+
+         HIDDEN_DIR: The hidden directories. Directories with names that start with '.'
+
+
+         HIDDEN_FILE: The hidden files. Directories with names that start with '.'
+
+
+         IDEA: The files and directories created by an IDEA IDE based tool.
+
+
+         MAC: The .DS_Store files on Mac computers.
+
+
+         GRADLE: The files and directories created by Gradle build system based projects.
+
+
+         MAVEN: The files and directories created by Maven build system based project.
+
+
+         MERCURIAL: The files and directories created by a Mercurial source code control based tool.
+
+
+         MISC: The set of miscellaneous files generally left by editors and the like.
+
+
+         MKS: The files and directories created by an MKS source code control based tool.
+
+
+         RCS: The files and directories created by a RCS source code control based tool.
+
+
+         SCCS: The files and directories created by a SCCS source code control based tool.
+
+
+         SERENA_DIMENSIONS_10: The files and directories created by a Serena Dimensions V10 change control system based
+         tool.
+
+
+         STANDARD_PATTERNS: A standard collection of generally accepted patterns to ignore.
+
+
+         STANDARD_SCMS: A standard collection of SCMs
+
+
+         SUBVERSION: The files and directories created by a Subversion source code control based tool.
+
+
+         SURROUND_SCM: The files and directories created by a Surround SCM source code control based tool.
+
+
+         VSS: The files and directories created by a Visual Source Safe source code control based tool.
+
+
+<CounterPattern>
+     A pattern comprising one of the following prefixes followed by a colon and a count (e.g. UNAPPROVED:5).  Prefixes
+         are
+
+         APPROVED: A count of approved licenses. Default range [0, unlimited]
+
+
+         ARCHIVES: A count of archive files. Default range [0, unlimited]
+
+
+         BINARIES: A count of binary files. Default range [0, unlimited]
+
+
+         DOCUMENT_TYPES: A count of distinct document types. Default range [1, unlimited]
+
+
+         IGNORED: A count of ignored files. Default range [0, unlimited]
+
+
+         LICENSE_CATEGORIES: A count of distinct license categories. Default range [1, unlimited]
+
+
+         LICENSE_NAMES: A count of distinct license names. Default range [1, unlimited]
+
+
+         NOTICES: A count of notice files. Default range [0, unlimited]
+
+
+         STANDARDS: A count of standard files. Default range [1, unlimited]
+
+
+         UNAPPROVED: A count of unapproved licenses. Default range [0, 0]
+
+
+         UNKNOWN: A count of unknown file types. Default range [0, unlimited]
+.
+
+<Arg>
+     A string
+
+====== Standard Collections ======
+
+
+<ALL>
+     All of the Standard Excludes combined.
+     File patterns: **/MANIFEST.MF, **/TAGS/**, **/ChangeSet/**, **/*.old, **/pom.xml.releaseBackup, **/.del-*,
+         **/*.ipr, **/*$, **/.settings/**, **/CVS.adm/**, **/BitKeeper/**, **/*.so, **/*.rej, **/.classpath, **/.bzr/**,
+         **/*.elc, **/._*, **/*~, **/*.iml, **/build.log, **/.mvn/**, **/.svn/**, **/project.pj, **/.hgignore,
+         **/build/**, **/-darcs-backup*, **/*.ln, **/.metadata/**, **/.project, **/cvslog.*, **/.make.state, **/core,
+         **/.factorypath, **/CVS/**, **/.idea/**, **/%*%, **/.git/**, **/_$*, **/.checkstyle, **/*.BAK, **/.hg/**,
+         **/.bzrignore, **/.externalToolBuilders/**, **/.arch-ids/**, **/*.o, **/release.properties, **/SCCS/**, **/,*,
+         **/bin/**, **/*.Z, **/.#*, **/vssver.scc, **/#*#, **/*.a, **/*.iws, **/target/**, **/.kotlin/**, **/RCS/**,
+         **/*.bak, **/.gradle/**, **/*.orig, **/.nse_depinfo, **/.darcs-temp-mail, **/RCSLOG/**, **/*.exe, **/tags/**,
+         **/.gitignore, **/#*, **/*.obj, **/.MySCMServerInfo, **/.repository, **/_darcs/**, **/cobertura.ser,
+         **/.darcsrepo/**, **/.DS_Store, **/.cvsignore
+     Provides a path matcher: true
+     Provides a file processor: true
+
+<ARCH>
+     The files and directories created by an ARCH source code control based tool.
+     File patterns: **/.arch-ids/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<BAZAAR>
+     The files and directories created by a Bazaar source code control based tool.
+     File patterns: **/.bzr/**, **/.bzrignore
+     Provides a path matcher: false
+     Provides a file processor: true
+
+<BITKEEPER>
+     The files and directories created by a Bitkeeper source code control based tool.
+     File patterns: **/BitKeeper/**, **/ChangeSet/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<CVS>
+     The files and directories created by a CVS source code control based tool.
+     File patterns: **/TAGS/**, **/_$*, **/*.old, **/*.BAK, **/.del-*, **/*$, **/*.o, **/SCCS/**, **/,*, **/CVS.adm/**,
+         **/*.so, **/*.rej, **/*.Z, **/.#*, **/*.elc, **/*.a, **/*~, **/RCS/**, **/*.bak, **/*.orig, **/.nse_depinfo,
+         **/RCSLOG/**, **/*.exe, **/*.ln, **/tags/**, **/#*, **/*.obj, **/cvslog.*, **/.make.state, **/core, **/CVS/**,
+         **/.cvsignore
+     Provides a path matcher: false
+     Provides a file processor: true
+
+<DARCS>
+     The files and directories created by a DARCS source code control based tool.
+     File patterns: **/_darcs/**, **/.darcsrepo/**, **/-darcs-backup*, **/.darcs-temp-mail
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<ECLIPSE>
+     The files and directories created by an Eclipse IDE based tool.
+     File patterns: **/.project, **/bin/**, **/.checkstyle, **/.classpath, **/.factorypath, **/.externalToolBuilders/**,
+         **/.settings/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<GIT>
+     The files and directories created by GIT source code control to support GIT, also processes files listed in
+         '.gitignore' and (unless RAT_NO_GIT_GLOBAL_IGNORE is specified) the global gitignore.
+     File patterns: **/.git/**, **/.gitignore
+     Provides a path matcher: false
+     Provides a file processor: true
+
+<HIDDEN_DIR>
+     The hidden directories. Directories with names that start with '.'
+     File patterns: <none>
+     Provides a path matcher: true
+     Provides a file processor: false
+
+<HIDDEN_FILE>
+     The hidden files. Directories with names that start with '.'
+     File patterns: <none>
+     Provides a path matcher: true
+     Provides a file processor: false
+
+<IDEA>
+     The files and directories created by an IDEA IDE based tool.
+     File patterns: **/*.iws, **/*.iml, **/*.ipr, **/.idea/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<MAC>
+     The .DS_Store files on Mac computers.
+     File patterns: **/.DS_Store
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<GRADLE>
+     The files and directories created by Gradle build system based projects.
+     File patterns: **/.kotlin/**, **/.gradle/**, **/build/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<MAVEN>
+     The files and directories created by Maven build system based project.
+     File patterns: **/MANIFEST.MF, **/pom.xml.releaseBackup, **/build.log, **/target/**, **/.repository, **/.mvn/**,
+         **/cobertura.ser, **/release.properties
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<MERCURIAL>
+     The files and directories created by a Mercurial source code control based tool.
+     File patterns: **/.hg/**, **/.hgignore
+     Provides a path matcher: false
+     Provides a file processor: true
+
+<MISC>
+     The set of miscellaneous files generally left by editors and the like.
+     File patterns: **/*~, **/%*%, **/.#*, **/._*, **/#*#
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<MKS>
+     The files and directories created by an MKS source code control based tool.
+     File patterns: **/project.pj
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<RCS>
+     The files and directories created by a RCS source code control based tool.
+     File patterns: **/RCS/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<SCCS>
+     The files and directories created by a SCCS source code control based tool.
+     File patterns: **/SCCS/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<SERENA_DIMENSIONS_10>
+     The files and directories created by a Serena Dimensions V10 change control system based tool.
+     File patterns: **/.metadata/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<STANDARD_PATTERNS>
+     A standard collection of generally accepted patterns to ignore.
+     File patterns: **/TAGS/**, **/ChangeSet/**, **/*.old, **/.del-*, **/*$, **/CVS.adm/**, **/BitKeeper/**, **/*.so,
+         **/*.rej, **/.bzr/**, **/*.elc, **/._*, **/*~, **/.svn/**, **/project.pj, **/.hgignore, **/-darcs-backup*,
+         **/*.ln, **/.metadata/**, **/cvslog.*, **/.make.state, **/core, **/CVS/**, **/%*%, **/.git/**, **/_$*,
+         **/*.BAK, **/.hg/**, **/.bzrignore, **/.arch-ids/**, **/*.o, **/SCCS/**, **/,*, **/*.Z, **/.#*, **/vssver.scc,
+         **/#*#, **/*.a, **/RCS/**, **/*.bak, **/*.orig, **/.nse_depinfo, **/.darcs-temp-mail, **/RCSLOG/**, **/*.exe,
+         **/tags/**, **/.gitignore, **/#*, **/*.obj, **/.MySCMServerInfo, **/_darcs/**, **/.darcsrepo/**, **/.DS_Store,
+         **/.cvsignore
+     Provides a path matcher: false
+     Provides a file processor: true
+
+<STANDARD_SCMS>
+     A standard collection of SCMs
+     File patterns: **/.git/**, **/TAGS/**, **/_$*, **/*.old, **/*.BAK, **/.del-*, **/.hg/**, **/.bzrignore, **/*$,
+         **/*.o, **/SCCS/**, **/,*, **/CVS.adm/**, **/*.so, **/*.rej, **/*.Z, **/.bzr/**, **/.#*, **/*.elc, **/*.a,
+         **/*~, **/RCS/**, **/*.bak, **/.svn/**, **/.hgignore, **/*.orig, **/.nse_depinfo, **/RCSLOG/**, **/*.exe,
+         **/*.ln, **/tags/**, **/.gitignore, **/#*, **/*.obj, **/cvslog.*, **/.make.state, **/core, **/CVS/**,
+         **/.cvsignore
+     Provides a path matcher: false
+     Provides a file processor: true
+
+<SUBVERSION>
+     The files and directories created by a Subversion source code control based tool.
+     File patterns: **/.svn/**
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<SURROUND_SCM>
+     The files and directories created by a Surround SCM source code control based tool.
+     File patterns: **/.MySCMServerInfo
+     Provides a path matcher: false
+     Provides a file processor: false
+
+<VSS>
+     The files and directories created by a Visual Source Safe source code control based tool.
+     File patterns: **/vssver.scc
+     Provides a path matcher: false
+     Provides a file processor: false
+
+A path matcher will match specific information about the file.
+
+A file processor will process the associated "ignore" file for include and exclude directives
+
+====== Notes ======
+
+1. RAT highlights possible issues.
+2. RAT reports require interpretation.
+3. RAT often requires some tuning before it runs well against a project.
+4. RAT relies on heuristics: it may miss issues

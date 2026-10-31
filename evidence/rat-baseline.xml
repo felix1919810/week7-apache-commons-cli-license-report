@@ -1,0 +1,392 @@
+<rat-report timestamp="2026-10-31T22:10:33+08:00">
+    <version product="Apache Creadur RAT" vendor="Apache Software Foundation" version="0.18"/>
+    <resource encoding="ISO-8859-1" mediaType="text/x-web-markdown" name="/CONTRIBUTING.md" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/LICENSE.txt" type="NOTICE"/>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/NOTICE.txt" type="NOTICE"/>
+    <resource encoding="ISO-8859-1" mediaType="text/x-web-markdown" name="/README.md" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/RELEASE-NOTES.txt" type="NOTICE"/>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/pom.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/assembly/bin.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/assembly/src.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/changes/changes.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/src/changes/release-notes.vm" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/conf/checkstyle-suppressions.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/conf/checkstyle.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/conf/spotbugs-exclude-filter.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/AlreadySelectedException.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/AmbiguousOptionException.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/BasicParser.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/Char.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/CommandLine.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/CommandLineParser.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/Converter.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/DefaultParser.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/DeprecatedAttributes.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/GnuParser.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/HelpFormatter.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/MissingArgumentException.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/MissingOptionException.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/Option.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/OptionBuilder.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/OptionGroup.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/OptionValidator.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/Options.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/ParseException.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/Parser.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/PatternOptionBuilder.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/PosixParser.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/TypeHandler.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/UnrecognizedOptionException.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/Util.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="image/svg+xml" name="/src/main/java/org/apache/commons/cli/doc-files/leaf.svg" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource mediaType="image/png" name="/src/main/java/org/apache/commons/cli/doc-files/logo.png" type="BINARY"/>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/AbstractHelpFormatter.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/FilterHelpAppendable.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/HelpAppendable.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/HelpFormatter.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/OptionFormatter.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/TableDefinition.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/TextHelpAppendable.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/TextStyle.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/Util.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/help/package-info.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/main/java/org/apache/commons/cli/package-info.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/html" name="/src/main/javadoc/overview.html" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource mediaType="image/x-xcf" name="/src/media/commons-logo-component-100.xcf" type="BINARY"/>
+    <resource mediaType="image/x-xcf" name="/src/media/commons-logo-component.xcf" type="BINARY"/>
+    <resource mediaType="image/png" name="/src/media/logo.png" type="BINARY"/>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/src/site/resources/.htaccess" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource mediaType="application/x-sh" name="/src/site/resources/download_cli.cgi" type="BINARY"/>
+    <resource mediaType="image/gif" name="/src/site/resources/images/1x1.gif" type="BINARY"/>
+    <resource mediaType="image/png" name="/src/site/resources/images/logo.png" type="BINARY"/>
+    <resource mediaType="image/png" name="/src/site/resources/images/options.png" type="BINARY"/>
+    <resource encoding="ISO-8859-1" mediaType="image/svg+xml" name="/src/site/resources/images/svg/commandlines.svg" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/javascript" name="/src/site/resources/images/svg/diagrams-cli2.js" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/css" name="/src/site/resources/images/svg/diagrams.css" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/javascript" name="/src/site/resources/images/svg/diagrams.js" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="image/svg+xml" name="/src/site/resources/images/svg/options.svg" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="image/svg+xml" name="/src/site/resources/images/svg/util.svg" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/src/site/resources/profile.jacoco" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/site.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/download_cli.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/index.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/issue-tracking.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/mail-lists.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/release_1_0.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/release_1_2.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/release_1_3.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/release_1_3_1.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/release_1_4.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/security.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="application/xml" name="/src/site/xdoc/upgrading-1.0-to-1.1.xml" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/AbstractParserTestCase.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/AlreadySelectedExceptionTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/ApplicationTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/ArgumentIsOptionTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/BasicParserTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/CommandLineTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/ConverterTests.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/DefaultParserTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/DeprecatedAttributesTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/DisablePartialMatchingTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/GnuParserTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/HelpFormatterTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/MissingOptionExceptionTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/OptionBuilderTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/OptionCountTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/OptionGroupTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/OptionTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/OptionValidatorTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/OptionsTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/ParseExceptionTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/PatternOptionBuilderTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/PosixParserTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/SolrCliTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/SolrCreateToolTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/TypeHandlerTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/UnrecognizedOptionExceptionTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/UtilTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/ValueTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/ValuesTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI133Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI13Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI148Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI162Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI18Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI252Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI265Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI266Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI312Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI325Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugCLI71Test.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/bug/BugsTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/example/AptHelpAppendable.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/example/AptHelpAppendableTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/example/WeirdOptionFormat.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendable.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/example/XhtmlHelpAppendableTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/help/HelpFormatterTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/help/OptionFormatterTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/help/TextHelpAppendableTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/help/TextStyleTests.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/x-java-source" name="/src/test/java/org/apache/commons/cli/help/UtilTest.java" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <resource encoding="ISO-8859-1" mediaType="text/plain" name="/src/test/resources/org/apache/commons/cli/existing-readable.file" type="STANDARD">
+        <license approval="true" family="AL   " id="AL2.0" name="Apache License 2.0"/>
+    </resource>
+    <statistics>
+        <statistic approval="true" count="120" description="A count of approved licenses." name="Approved"/>
+        <statistic approval="true" count="0" description="A count of archive files." name="Archives"/>
+        <statistic approval="true" count="8" description="A count of binary files." name="Binaries"/>
+        <statistic approval="true" count="3" description="A count of distinct document types." name="Document types"/>
+        <statistic approval="true" count="0" description="A count of ignored files." name="Ignored"/>
+        <statistic approval="true" count="1" description="A count of distinct license categories." name="License categories"/>
+        <statistic approval="true" count="1" description="A count of distinct license names." name="License names"/>
+        <statistic approval="true" count="3" description="A count of notice files." name="Notices"/>
+        <statistic approval="true" count="120" description="A count of standard files." name="Standards"/>
+        <statistic approval="true" count="0" description="A count of unapproved licenses." name="Unapproved"/>
+        <statistic approval="true" count="0" description="A count of unknown file types." name="Unknown"/>
+        <licenseCategory count="120" name="AL   "/>
+        <licenseName count="120" name="Apache License 2.0"/>
+        <documentType count="8" name="BINARY"/>
+        <documentType count="3" name="NOTICE"/>
+        <documentType count="120" name="STANDARD"/>
+    </statistics>
+</rat-report>
